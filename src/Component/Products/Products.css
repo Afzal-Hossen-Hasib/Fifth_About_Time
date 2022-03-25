@@ -1,0 +1,29 @@
+.produts {
+    width: 300px;
+    height: 500px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.produts-name {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.produts img {
+    width: 300px;
+    height: 300px;
+}
+
+.button-cart {
+    width: 100%;
+    background-color: aqua;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+}
+
+.button-cart:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
