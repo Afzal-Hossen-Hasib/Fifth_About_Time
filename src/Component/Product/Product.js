@@ -12,6 +12,10 @@ const Product = () => {
         .then (data => setProduct(data))
     } , []) 
 
+    const addToCart = (product) => {
+        console.log (product)
+    }
+
     return (
         <div className='container'>
             <div className="product-container">
@@ -19,6 +23,7 @@ const Product = () => {
                     product.map(product => <Products 
                         key={product.id}
                         product= {product}
+                        addToCart = {addToCart}
                         ></Products>)
                 }
             </div>
