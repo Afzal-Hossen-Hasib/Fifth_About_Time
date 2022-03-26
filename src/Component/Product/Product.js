@@ -19,8 +19,9 @@ const Product = () => {
         setCart(newCart);
     }
 
-    const removeCart = () => {
+    const removeCart = (setRan) => {
         setCart ([]);
+        setRan([]);
     }
 
     return (

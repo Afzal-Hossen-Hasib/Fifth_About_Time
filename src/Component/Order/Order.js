@@ -42,7 +42,7 @@ const Order = ({cart, removeCart}) => {
                 </div>
     
             <button onClick={() => randomCart(cartName)} className='cart-button'> Choose One For Me</button> <br />
-            <button onClick={() => removeCart()} className='cart-button'>Clear Item</button>
+            <button onClick={() => removeCart(setRan)} className='cart-button'>Clear Item</button>
         </div>
     );
 };
