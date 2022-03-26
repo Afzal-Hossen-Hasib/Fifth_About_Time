@@ -26,7 +26,7 @@ const Order = (props) => {
 
     return (
         <div className='order'>
-            <h2 className='cart-title'>This Is Cart</h2>
+            <h2 className='cart-title'>Order List</h2>
             {allProductName.map((e)=>{
                 return (
                     <div>
