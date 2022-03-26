@@ -21,7 +21,7 @@
 
 .button-cart {
     width: 100%;
-    background-color: aqua;
+    background-color: orange;
     border-radius: 0px 0px 8px 8px;
     border: none;
     display: flex;
@@ -40,7 +40,7 @@
 }
 
 .button-cart:hover {
-    background-color: aquamarine;
+    background-color: rgb(241, 199, 120);
     cursor: pointer;
 }
 

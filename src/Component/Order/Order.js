@@ -2,42 +2,28 @@ import React from 'react';
 import './Order.css'
 
 
-
-
-const Order = (props) => {
-    const {cart} = props;
-
-    let allProductName = [];
-
-    for (const product of cart) { 
-        allProductName.push(product.name);
-    }
-
-
-    // for (let i = 0; i<allProductName.length; i++) {
-    //     console.log(allProductName[i*Math.random(i)]);
-    // } 
-
-    // const filterProduct = () => {
-    //    const randomItem = allProductName[Math.floor(Math.random()*allProductName.length)]
-    //     return randomItem;
-    // }
-
+const Order = ({cart, suggestProdct, suggest, product, removeCart}) => {
 
     return (
         <div className='order'>
-            <h2 className='cart-title'>Order List</h2>
-            {allProductName.map((e)=>{
-                return (
-                    <div>
-                        <h3>Name: {e}</h3>
-                    </div>
-                );
-            })}
+            <h2 className='cart-title'>Orderd List</h2>
 
-            <p>Random Name: </p>
-            <button className='cart-button'> Choose One For Me</button> <br />
-            <button className='cart-button'>Remove Item</button>
+               {
+                   cart.map (item => <div className='cart-example' key = {item.id}>
+                       <img src= {item.picture} alt="" />
+                       <h3>{item.name}</h3>
+                       </div>)
+               }
+
+               {
+                   suggest.map (items => <div className='product-details' key = {items[Math.floor(Math.random () * product.length)].id}>
+                       <img src= {items[Math.floor (Math.random() * product.length)].picture} alt="" />
+                       <h3>{items[Math.floor (Math.random () * product.length)].name}</h3>
+                   </div>)
+               }
+            
+            <button onClick={() => suggestProdct(product)} className='cart-button'> Choose One For Me</button> <br />
+            <button onClick={() => removeCart()} className='cart-button'>Clear Item</button>
         </div>
     );
 };

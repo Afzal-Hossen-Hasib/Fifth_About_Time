@@ -19,6 +19,18 @@ const Product = () => {
         setCart(newCart);
     }
     
+    const [suggest, setSuggest] = useState ([]);
+
+    const suggestProdct = (product) => {
+        const newCart = [product]
+        setSuggest (newCart)
+    }
+
+    const removeCart = () => {
+        setCart ([]);
+        setSuggest ([]);
+    }
+
     return (
         <div className='container'>
             <div className="product-container">
@@ -34,6 +46,10 @@ const Product = () => {
             <div className="cart-container">
                 <Order 
                 cart={cart}
+                product = {product}
+                removeCart = {removeCart}
+                suggestProdct = {suggestProdct}
+                suggest = {suggest}
                 ></Order> 
             </div>
         </div>
