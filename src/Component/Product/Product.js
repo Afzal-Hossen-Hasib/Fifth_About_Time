@@ -18,7 +18,7 @@ const Product = () => {
         // console.log (product)
         const newCart = [...cart, product]
         setCart(newCart);
-        console.log (newCart);
+        // console.log (newCart);
         // console.log(cart);
     }
     
@@ -36,7 +36,7 @@ const Product = () => {
             </div>
 
             <div className="cart-container">
-                <Order cart={cart}></Order>
+                <Order key={product.id} cart={cart}></Order> 
             </div>
         </div>
     );

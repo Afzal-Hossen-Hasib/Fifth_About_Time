@@ -1,3 +1,17 @@
 .home {
     text-align: center;
+    background-color: rgb(191, 240, 243);
+    margin-bottom: 50px;
+    margin-top: 10px;
+    padding: 20px;
 }
+
+.title {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .home {
+        width: 80%;
+    }
+  }

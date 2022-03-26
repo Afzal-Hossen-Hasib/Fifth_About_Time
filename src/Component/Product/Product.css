@@ -9,3 +9,17 @@
     grid-gap: 45px;
     margin: 100px 50px;
 }
+
+.cart-container {
+    background-color: rgb(188, 245, 245);
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+
+
+/* @media screen and (max-width: 600px) {
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  } */
