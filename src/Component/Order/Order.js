@@ -18,16 +18,16 @@ const Order = (props) => {
     //     console.log(allProductName[i*Math.random(i)]);
     // } 
 
-    const filterProduct = () => {
-       const randomItem = allProductName[Math.floor(Math.random()*allProductName.length)]
-        return randomItem;
-    }
+    // const filterProduct = () => {
+    //    const randomItem = allProductName[Math.floor(Math.random()*allProductName.length)]
+    //     return randomItem;
+    // }
     // const a = allProductName[Math.abs(Math.random(allProductName.length))]
     // console.log(a);
     // filterProduct();
 
-    const b = filterProduct();
-    console.log(b );
+    // const b = filterProduct();
+    // console.log(b );
 
     return (
         <div className='order'>
@@ -35,13 +35,13 @@ const Order = (props) => {
             {allProductName.map((e)=>{
                 return (
                     <div>
-                        <span>Name: {e}</span> <br/>
+                        <h3>Name: {e}</h3>
                     </div>
                 );
             })}
 
-            <p>Random Name: {b}</p>
-            <button className='cart-button' onClick={filterProduct}>Choose One For Me</button> <br />
+            {/* <p>Random Name: {b}</p> */}
+            <button className='cart-button'>Choose One For Me</button> <br />
             <button className='cart-button'>Remove Item</button>
         </div>
     );
