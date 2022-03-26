@@ -22,23 +22,7 @@ const Order = (props) => {
     //    const randomItem = allProductName[Math.floor(Math.random()*allProductName.length)]
     //     return randomItem;
     // }
-    // const a = allProductName[Math.abs(Math.random(allProductName.length))]
-    // console.log(a);
-    // filterProduct();
 
-    // const b = filterProduct();
-    // console.log(b );
-
-
-    // const randomName = (min, max) => {
-    //     let step1 = max-min + 1;
-    //     let step2 = Math.random () * step1;
-    //     let result = Math.floor (step2) + min;
-
-    //     return result;
-    // }
-
-    // let index = randomName (0, cart.length -1);
 
     return (
         <div className='order'>
@@ -51,7 +35,7 @@ const Order = (props) => {
                 );
             })}
 
-            {/* <p>Random Name: {index}</p> */}
+            <p>Random Name: </p>
             <button className='cart-button'> Choose One For Me</button> <br />
             <button className='cart-button'>Remove Item</button>
         </div>

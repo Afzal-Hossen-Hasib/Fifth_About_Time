@@ -1,38 +1,38 @@
 [
     {
       "id": "623e0bc493618a552cedd957",
-      "picture": "https://m.media-amazon.com/images/I/61sWtUsCuZL._AC_UY218_.jpg",
-      "price": 199,
+      "picture": "https://m.media-amazon.com/images/I/61Yuk7cOPwL._AC_UY218_.jpg",
+      "price": 299,
       "name": "Donerton Smart Watch"
     },
     {
       "id": "623e0bc4a79bfacdd6195392",
-      "picture": "https://m.media-amazon.com/images/I/61L5Jko2QqL._AC_UY218_.jpg",
-      "price": 192,
+      "picture": "https://m.media-amazon.com/images/I/91-FMQZE6DL._AC_UY218_.jpg",
+      "price": 290,
       "name": "Fitbit Versa"
     },
     {
       "id": "623e0bc4e3dde0c298bdefa6",
       "picture": "https://m.media-amazon.com/images/I/618YdC9pGeL._AC_UY218_.jpg",
-      "price": 595,
+      "price": 590,
       "name": "TOZO S2 Smart Watch"
     },
     {
       "id": "623e0bc43163d48615883087",
       "picture": "https://m.media-amazon.com/images/I/51TSoZg041L._AC_UL320_.jpg",
-      "price": 507,
+      "price": 500,
       "name": "Garmin 010-01769-01"
     },
     {
       "id": "623e0bc44ef99cb47c251063",
       "picture": "https://m.media-amazon.com/images/I/617RQK5jKDL._AC_UL320_.jpg",
-      "price": 129,
+      "price": 230,
       "name": "Amazfit Bip U Pro"
     },
     {
       "id": "623e0bc4c60f123e4b610b1e",
       "picture": "https://m.media-amazon.com/images/I/41iag5vRGVL._AC_UL320_.jpg",
-      "price": 366,
+      "price": 360,
       "name": "Fitbit Charge 5"
     },
     {
@@ -44,31 +44,31 @@
     {
       "id": "623e0bc44674740d87b00ed5",
       "picture": "https://m.media-amazon.com/images/I/61CJ+-3yM-L._AC_UY218_.jpg",
-      "price": 588,
+      "price": 580,
       "name": "Amazfit GTR 2 Smart"
     },
     {
       "id": "623e0bc4e5ccdd1f2bc7b6f4",
-      "picture": "https://m.media-amazon.com/images/I/712xd6dVHVL._AC_UY218_.jpg",
-      "price": 593,
+      "picture": "https://m.media-amazon.com/images/I/61g4SEAgmbL._AC_UY218_.jpg",
+      "price": 490,
       "name": "Fossil Men's Gen 5E"
     },
     {
       "id": "623e0bc467f4e27e55433e68",
       "picture": "https://m.media-amazon.com/images/I/71HvekeiFkL._AC_UY218_.jpg",
-      "price": 338,
+      "price": 330,
       "name": "Amazfit T-Rex Pro"
     },
     {
       "id": "623e0bc4623b96654cd2f41d",
       "picture": "https://m.media-amazon.com/images/I/61z2kDt8auS._AC_UY218_.jpg",
-      "price": 325,
+      "price": 320,
       "name": "HAFURY Women Smart Watch"
     },
     {
       "id": "623e0bc4be3f382ca9b4982e",
-      "picture": "https://m.media-amazon.com/images/I/61yY7B+O5AS._AC_UY218_.jpg",
+      "picture": "https://m.media-amazon.com/images/I/71aXFV+0IlL._AC_UY218_.jpg",
       "price": 500,
-      "name": "Samsung Electronics Galaxy"
+      "name": "HUAWEI Band 6"
     }
   ]
