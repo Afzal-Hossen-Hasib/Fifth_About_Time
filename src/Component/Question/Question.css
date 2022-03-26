@@ -1,0 +1,27 @@
+.ques-container {
+    /* background-color: aqua; */
+    padding: 30px;
+}
+
+.first {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: justify;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.ques-first {
+    color: orangered;
+}
+
+.answer {
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ans-text {
+    font-size: 17px;
+    font-weight: bold;
+}

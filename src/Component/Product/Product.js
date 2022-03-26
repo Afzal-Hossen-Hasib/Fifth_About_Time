@@ -22,6 +22,7 @@ const Product = () => {
         // console.log(cart);
     }
     
+    
 
     return (
         <div className='container'>
@@ -36,7 +37,9 @@ const Product = () => {
             </div>
 
             <div className="cart-container">
-                <Order key={product.id} cart={cart}></Order> 
+                <Order 
+                cart={cart}
+                ></Order> 
             </div>
         </div>
     );
