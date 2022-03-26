@@ -1,5 +1,5 @@
 .produts {
-    width: 300px;
+    width: 100%;
     height: 500px;
     border-radius: 10px;
     padding: 20px;
@@ -28,6 +28,7 @@
     border-radius: 10px;
     margin-top: 50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
 }
 
 .btn-text {
@@ -40,3 +41,4 @@
     background-color: aquamarine;
     cursor: pointer;
 }
+

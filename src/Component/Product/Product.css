@@ -22,10 +22,24 @@
 @media screen and (max-width: 640px) {
     .product-container {
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
     }
     .cart-container {
-        flex-direction: column;
-        /* background-color: rebeccapurple; */
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .produts {
+        width: 100%;
+        height: auto;
+    }
+
+    .produts img {
+        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
     }
   }

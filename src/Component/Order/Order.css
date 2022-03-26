@@ -29,3 +29,11 @@
     cursor: pointer;
 }
 
+/* @media screen and (max-width: 640px) {
+    
+    .order {
+        flex-direction: column;
+        width: 100%;
+    }
+
+  } */
