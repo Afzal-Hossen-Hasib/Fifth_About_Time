@@ -15,15 +15,10 @@ const Product = () => {
     } , []) 
 
     const addToCart = (product) => {
-        // console.log (product)
         const newCart = [...cart, product]
         setCart(newCart);
-        // console.log (newCart);
-        // console.log(cart);
     }
     
-    
-
     return (
         <div className='container'>
             <div className="product-container">
