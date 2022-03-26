@@ -44,3 +44,7 @@
     background-color: rgb(241, 199, 120);
     cursor: pointer;
 }
+
+.cart-name {
+    margin: 10px;
+}
